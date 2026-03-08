@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Articles | Africa in America</title>
+  <meta name="description" content="All published field notes and short interpretive articles for the Africa in the Lowcountry public history project." />
+
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">
+        <h1>Africa in America</h1>
+        <p class="sub">Sacred place and ancestral memory in the Lowcountry</p>
+      </div>
+
+      <nav aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="articles.html" aria-current="page">Articles</a>
+        <a href="glossary.html">Glossary</a>
+        <a href="sources.html">Sources</a>
+        <a href="about.html">About</a>
+            <div class="hero-tools">
+              <label class="pill" aria-label="Search">
+                <span aria-hidden="true">⌕</span>
+                <input id="q" type="search" placeholder="Search..." />
+              </label>
+            </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="archive-wrap">
+      <header class="archive-head">
+        <h1>Articles</h1>
+        <p>All published articles, descending by date. Use search or tags to narrow.</p>
+
+        <div class="controls" aria-label="Filters">
+          <div class="search" role="search">
+            <span aria-hidden="true">⌕</span>
+            <input id="article-search" type="search" placeholder="Search titles, excerpts, tags…" autocomplete="off" />
+          </div>
+          <button class="btn" type="button" id="clearBtn">Clear</button>
+        </div>
+
+        <div class="chiprow" aria-label="Tag filters">
+          <button class="chip" type="button" data-tag="language" aria-pressed="false">language</button>
+          <button class="chip" type="button" data-tag="religion" aria-pressed="false">religion</button>
+          <button class="chip" type="button" data-tag="landscape" aria-pressed="false">landscape</button>
+          <button class="chip" type="button" data-tag="creolization" aria-pressed="false">creolization</button>
+          <button class="chip" type="button" data-tag="origins" aria-pressed="false">origins</button>
+          <button class="chip" type="button" data-tag="diaspora" aria-pressed="false">diaspora</button>
+        </div>
+
+        <div class="countline"><span id="count">0</span> article(s) shown.</div>
+        <div class="empty" id="empty">No articles match your search/filters.</div>
+      </header>
+
+      <div class="grid" style="margin-top: 14px;">
+
+        <section aria-label="Article list">
+          <article class="card listcard">
+            <ul class="postlist" id="posts">
+
+              <li class="postitem"
+                  data-title="between the living and the dead"
+                  data-tags="language religion landscape creolization">
+                <h3 class="ptitle">
+                  <a href="posts/2026-03-07-between-living-and-dead.html">Between the living and the dead: the making of a creole landscape</a>
+                </h3>
+                <p class="pmeta">
+                  <time datetime="2026-03-07">7 Mar 2026</time> · ~5 min · Tags: language, religion, landscape, creolization
+                </p>
+                <p class="pexcerpt">
+                  The simbi, nature spirits of the Kongo, enabled enslaved Africans to turn a strange land into a home, rebuilding community though cut off from their ancestors. This article explores the creolization of place, revealing how Africa persisted not only in language and practice but in the meaning of the landscape itself.
+                </p>
+                <div class="tags" aria-label="Tags">
+                  <span class="tag">language</span>
+                  <span class="tag">religion</span>
+                  <span class="tag">landscape</span>
+                  <span class="tag">creolization</span>
+                </div>
+              </li>
+
+              <li class="postitem"
+                  data-title="plural africa creolization polyculturalism and the emergence of new identities"
+                  data-tags="origins creolization diaspora">
+                <h3 class="ptitle">
+                  <a href="posts/2026-03-07-plural-africas.html">Plural Africa: creolization, polyculturalism, and the emergence of new identities</a>
+                </h3>
+                <p class="pmeta">
+                  <time datetime="2026-03-07">7 Mar 2026</time> · ~3 min · Tags: origins, creolization, diaspora
+                </p>
+                <p class="pexcerpt">
+                  Public historians often make the mistake of treating Africa like a single point of origin. This article shows how Lowcountry records hint at multiple African origins, and explains why that matters.
+                </p>
+                <div class="tags" aria-label="Tags">
+                  <span class="tag">origins</span>
+                  <span class="tag">creolization</span>
+                  <span class="tag">diaspora</span>
+                </div>
+              </li>
+
+              <li class="postitem"
+                  data-title="ground-nuts and gold rice: how african farming built the lowcountry landscape and economy"
+                  data-tags="language landscape">
+                <h3 class="ptitle">
+                  <a href="posts/2026-03-07-ground-nuts-gold-rice.html">Ground-nuts and gold rice: how African farming built the Lowcountry landscape and economy</a>
+                </h3>
+                <p class="pmeta">
+                  <time datetime="2026-03-07">7 Mar 2026</time> · ~2 min · Tags: sacred landscapes, folklore, survival
+                </p>
+                <p class="pexcerpt">
+                  This article shows how African agricultural knowledge reshaped Lowcountry ecology, economy, and culture.
+                </p>
+                <div class="tags" aria-label="Tags">
+                  <span class="tag">language</span>
+                  <span class="tag">landscape</span>
+                </div>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+        <aside class="side" aria-label="Sidebar">
+          <div class="card sidecard">
+            <h2 class="section-title">How to use this archive</h2>
+            <p>
+              Articles are relatively short. Each one makes a single claim and points you toward sources (usually peer-reviewed scholarship, but some primary sources).
+            </p>
+            <p>
+              If you’re new here, start with the “Between the living and the dead,” objectively the best of the articles. It also contains formatting features that the others do not.
+            </p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div class="cols">
+        <div>
+          <div class="smallcaps">Africa in America</div>
+          <div>Designed by Nathan McNee</div>
+        </div>
+        <div>
+          <div><span class="smallcaps">Accessibility</span>: Keyboard: <span class="kbd">Tab</span> to navigate · <span class="kbd">Enter</span> to open links</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const q = document.getElementById("article-search");
+    const clearBtn = document.getElementById("clearBtn");
+    const chips = Array.from(document.querySelectorAll(".chip"));
+    const posts = Array.from(document.querySelectorAll("#posts .postitem"));
+    const count = document.getElementById("count");
+    const empty = document.getElementById("empty");
+
+    let activeTag = null;
+
+    function normalize(s){
+      return (s || "").toLowerCase().trim();
+    }
+
+    function apply(){
+      const term = normalize(q.value);
+      let shown = 0;
+
+      posts.forEach(li => {
+        const title = normalize(li.dataset.title);
+        const tags = normalize(li.dataset.tags);
+        const excerpt = normalize(li.querySelector(".pexcerpt")?.textContent || "");
+        const matchesText = !term || title.includes(term) || excerpt.includes(term) || tags.includes(term);
+        const matchesTag = !activeTag || tags.split(/\s+/).includes(activeTag);
+
+        const ok = matchesText && matchesTag;
+        li.style.display = ok ? "" : "none";
+        if(ok) shown++;
+      });
+
+      count.textContent = String(shown);
+      empty.style.display = shown ? "none" : "block";
+    }
+
+    chips.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const tag = btn.dataset.tag;
+        if(activeTag === tag){
+          activeTag = null;
+          chips.forEach(c => c.setAttribute("aria-pressed", "false"));
+        }else{
+          activeTag = tag;
+          chips.forEach(c => c.setAttribute("aria-pressed", c.dataset.tag === tag ? "true" : "false"));
+        }
+        apply();
+      });
+    });
+
+    q.addEventListener("input", apply);
+
+    clearBtn.addEventListener("click", () => {
+      q.value = "";
+      activeTag = null;
+      chips.forEach(c => c.setAttribute("aria-pressed", "false"));
+      apply();
+      q.focus();
+    });
+
+    // initial count
+    apply();
+  </script>
+</body>
+</html>
